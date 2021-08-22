@@ -22,7 +22,8 @@
 
 
 (defvar lsp-remap-xref-keybindings nil "When non-nil, xref keybindings remapped to lsp-ui-peek-find-*")
-(defvar lsp-navigation 'both
+;;(defvar lsp-navigation 'both
+(defvar lsp-navigation nil  ;; hhd: modify this to disable the lsp-navigation   
   "If `simple' binds lightweight navigation functions under `SPC m g'.
 If `peek' binds lsp-ui navigation functions under `SPC m g'.
 If `both', binds lightweight navigation functions under `SPC m g' and lsp-ui functions under `SPC m G'")
